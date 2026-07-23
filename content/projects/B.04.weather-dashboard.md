@@ -39,6 +39,6 @@ tools:
   - Vitest
 ---
 
-While exploring new career opportunities, I decided to strengthen my **React.js** skills by building a _weather application_.
+While exploring new career opportunities, I decided to strengthen my **React.js** skills by building a _weather application_. I chose not to deploy the application because a malicious user could potentially abuse it and exceed the free usage limit of the OpenWeather API.
 
 This side project is based on a <a href="https://www.youtube.com/watch?v=M-iV9R3kLNA" rel="noopener noreferrer" target="_blank" title="Stop Copying Tutorials — Build a Real React App With Me">YouTube tutorial</a>.
