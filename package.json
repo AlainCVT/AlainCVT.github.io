@@ -42,6 +42,7 @@
     "eslint": "^10.0.0",
     "eslint-plugin-prettier": "^5.5.5",
     "happy-dom": "^20.6.1",
+    "nuxt-github-pages": "^1.5.0",
     "nuxt-typed-router": "^4.0.6",
     "playwright-core": "^1.58.2",
     "postcss": "^8.5.6",

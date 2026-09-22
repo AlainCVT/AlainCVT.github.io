@@ -1,9 +1,13 @@
 import tailwindcss from '@tailwindcss/vite';
 
 export default defineNuxtConfig({
+  ssr: true,
   compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
+  devtools: {
+    enabled: true,
+  },
   app: {
+    baseURL: '/',
     head: {
       htmlAttrs: {
         lang: 'en',
@@ -33,9 +37,10 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/image',
     '@nuxt/test-utils/module',
-    '@vueuse/nuxt',
-    'nuxt-typed-router',
     '@vee-validate/nuxt',
+    '@vueuse/nuxt',
+    'nuxt-github-pages',
+    'nuxt-typed-router',
   ],
   css: ['@/assets/styles/main.css'],
   vite: {
